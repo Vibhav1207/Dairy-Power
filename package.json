@@ -1,0 +1,32 @@
+{
+  "name": "dairy-power-website",
+  "version": "1.0.0",
+  "description": "Modern responsive website for Dairy Power Pvt Ltd",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8080 --open=/index.html",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Ready for deployment'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "dairy",
+    "milk-products",
+    "responsive-website",
+    "html-css-js",
+    "static-site"
+  ],
+  "author": "Dairy Power Pvt Ltd",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vibhav1207/Dairy-Power.git"
+  },
+  "homepage": "https://vibhav1207.github.io/Dairy-Power",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
