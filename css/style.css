@@ -1320,3 +1320,2844 @@
   aspect-ratio: 1.25;
   object-fit: cover;
 }
+
+.product-from-lassi {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1512px;
+  min-height: 6911.37px;
+  position: relative;
+}
+
+.product-from-lassi .rectangle {
+  position: absolute;
+  top: 2086px;
+  left: 0;
+  width: 1512px;
+  height: 4826px;
+}
+
+.product-from-lassi .img {
+  position: absolute;
+  top: 2123px;
+  left: 0;
+  width: 1512px;
+  height: 1487px;
+  object-fit: cover;
+}
+
+.product-from-lassi .ellipse {
+  position: absolute;
+  top: 4114px;
+  left: 1px;
+  width: 766px;
+  height: 55px;
+  border-radius: 382.98px/27.67px;
+  background: radial-gradient(50% 50% at 57% 50%, rgba(90, 90, 90, 0.8) 25%, rgba(192, 192, 192, 0) 100%);
+}
+
+.product-from-lassi .div {
+  position: absolute;
+  top: 2984px;
+  left: 881px;
+  width: 736px;
+  height: 72px;
+  border-radius: 368.04px/35.97px;
+  filter: blur(8.3px);
+  background: radial-gradient(50% 50% at 57% 50%, rgba(0, 0, 0, 0.8) 25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.product-from-lassi .day-dairy-power {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 1325px;
+  aspect-ratio: 1.17;
+}
+
+.product-from-lassi .rectangle-2 {
+  position: absolute;
+  top: 31px;
+  left: calc(50% - 718px);
+  width: 1434px;
+  height: 80px;
+  background-color: #b0c9d2;
+  border-radius: 28.78px;
+  transform: rotate(-0.02deg);
+  backdrop-filter: blur(19.37px) brightness(100%);
+  -webkit-backdrop-filter: blur(19.37px) brightness(100%);
+  background-blend-mode: multiply;
+}
+
+.product-from-lassi .ellipse-2 {
+  position: absolute;
+  top: 11px;
+  left: 27px;
+  width: 122px;
+  height: 122px;
+  background-color: #ffffff;
+  border-radius: 60.88px;
+}
+
+.product-from-lassi .section {
+  position: absolute;
+  top: 3209px;
+  left: 0;
+  width: 1512px;
+  height: 1393px;
+}
+
+.product-from-lassi .section-2 {
+  position: absolute;
+  top: 3596px;
+  left: -81px;
+  width: 2189px;
+  height: 1207px;
+}
+
+.product-from-lassi .BG {
+  position: absolute;
+  top: 0;
+  left: 81px;
+  width: 1512px;
+  height: 1207px;
+}
+
+.product-from-lassi .feedback-of-our {
+  position: absolute;
+  top: 117px;
+  left: 525px;
+  width: 643px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 48.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 69.1px;
+}
+
+.product-from-lassi .text-wrapper {
+  color: #000000;
+}
+
+.product-from-lassi .span {
+  color: #3ba0c7;
+}
+
+.product-from-lassi .text-wrapper-2 {
+  position: absolute;
+  top: 2469px;
+  left: 101px;
+  width: 341px;
+  text-shadow: 0px 6.03px 6.03px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #ffe460;
+  font-size: 114.6px;
+  letter-spacing: 0;
+  line-height: 124.7px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .a-premium-dairy {
+  position: absolute;
+  top: 439px;
+  left: 104px;
+  width: 656px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 26.6px;
+  letter-spacing: 0;
+  line-height: 44.3px;
+}
+
+.product-from-lassi .a-superb-of-joy-in {
+  position: absolute;
+  top: 196px;
+  left: 104px;
+  width: 713px;
+  text-shadow: 0px 4.43px 4.43px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 83px;
+  letter-spacing: 0;
+  line-height: 100.7px;
+}
+
+.product-from-lassi .text-wrapper-3 {
+  color: #ffffff;
+}
+
+.product-from-lassi .text-wrapper-4 {
+  color: #fcdd60;
+}
+
+.product-from-lassi .navbar {
+  position: absolute;
+  top: 56px;
+  left: 523px;
+  width: 963px;
+  height: 44px;
+}
+
+.product-from-lassi .text-wrapper-5 {
+  width: 10.07%;
+  left: 88.75%;
+  position: absolute;
+  height: 85.83%;
+  top: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-6 {
+  width: 10.8%;
+  left: 70.56%;
+  position: absolute;
+  height: 85.83%;
+  top: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-7 {
+  width: 9.14%;
+  left: 54.31%;
+  position: absolute;
+  height: 85.83%;
+  top: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-8 {
+  width: 7.27%;
+  left: 40.32%;
+  position: absolute;
+  height: 85.83%;
+  top: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-9 {
+  width: 7.06%;
+  left: 26.72%;
+  position: absolute;
+  height: 85.83%;
+  top: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .active-item {
+  position: absolute;
+  width: 5.92%;
+  height: 100%;
+  top: 0;
+  left: 14.79%;
+}
+
+.product-from-lassi .text-wrapper-10 {
+  position: absolute;
+  width: 96.49%;
+  height: 85.83%;
+  top: 0;
+  left: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .rectangle-3 {
+  position: absolute;
+  width: 52.8%;
+  height: 7.5%;
+  top: 92.5%;
+  left: 21.32%;
+  background-color: #f1d21e;
+  border-radius: 160.5px;
+}
+
+.product-from-lassi .section-3 {
+  position: absolute;
+  top: 1026px;
+  left: 0;
+  width: 1512px;
+  height: 1262px;
+}
+
+.product-from-lassi .dairy-power-logo {
+  position: absolute;
+  top: 19px;
+  left: 34px;
+  width: 106px;
+  height: 97px;
+  aspect-ratio: 1.1;
+  object-fit: cover;
+}
+
+.product-from-lassi .ellipse-3 {
+  position: absolute;
+  top: 1954px;
+  left: 36px;
+  width: 692px;
+  height: 55px;
+  border-radius: 345.9px/27.67px;
+  filter: blur(11.05px);
+  background: radial-gradient(50% 50% at 57% 50%, rgba(90, 90, 90, 0.8) 37%, rgba(255, 255, 255, 0) 100%);
+}
+
+.product-from-lassi .frame {
+  top: 1581px;
+  left: 756px;
+  position: absolute;
+  width: 676px;
+  height: 401px;
+  box-shadow: 0px 4.23px 4.23px #00000040;
+}
+
+.product-from-lassi .rectangle-4 {
+  position: absolute;
+  top: -23px;
+  left: -28px;
+  width: 694px;
+  height: 407px;
+  background-color: #ffffff21;
+  border-radius: 66.65px 66.65px 66.65px 67.92px;
+  box-shadow: 0px 5.22px 5.22px #00000040;
+}
+
+.product-from-lassi .rectangle-5 {
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  width: 627px;
+  height: 337px;
+  background-color: #ffffff;
+  border-radius: 35.27px;
+}
+
+.product-from-lassi .experience-the-rich {
+  width: 603px;
+  position: absolute;
+  top: 23px;
+  left: 29px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 32.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .text-wrapper-11 {
+  color: #000000a3;
+}
+
+.product-from-lassi .text-wrapper-12 {
+  color: #29a4dd;
+}
+
+.product-from-lassi .text-wrapper-13 {
+  font-family: "Itim", Helvetica;
+  color: #000000a3;
+}
+
+.product-from-lassi .frame-2 {
+  top: 2647px;
+  left: 95px;
+  position: absolute;
+  width: 676px;
+  height: 401px;
+  box-shadow: 0px 4.23px 4.23px #00000040;
+}
+
+.product-from-lassi .rectangle-6 {
+  position: absolute;
+  top: -23px;
+  left: -18px;
+  width: 694px;
+  height: 407px;
+  background-color: #ffffff21;
+  border-radius: 66.65px 66.65px 66.65px 67.92px;
+}
+
+.product-from-lassi .rectangle-7 {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  width: 627px;
+  height: 337px;
+  background-color: #ffffff;
+  border-radius: 35.27px;
+}
+
+.product-from-lassi .bring-home-the {
+  position: absolute;
+  top: 23px;
+  left: 38px;
+  width: 570px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 32.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .text-wrapper-14 {
+  color: #e9d15a;
+}
+
+.product-from-lassi .frame-3 {
+  top: 3873px;
+  left: 788px;
+  position: absolute;
+  width: 676px;
+  height: 401px;
+  box-shadow: 0px 4.23px 4.23px #00000040;
+}
+
+.product-from-lassi .experience-the-taste {
+  width: 561px;
+  position: absolute;
+  top: 23px;
+  left: 29px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 32.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .text-wrapper-15 {
+  color: #63a10b;
+}
+
+.product-from-lassi .text-wrapper-16 {
+  position: absolute;
+  top: 6526px;
+  left: 20px;
+  width: 431px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: #86cae4;
+  font-size: 63.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 105.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-17 {
+  position: absolute;
+  top: 1433px;
+  left: 821px;
+  width: 617px;
+  text-shadow: 0px 5px 4.43px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #fff8f8;
+  font-size: 94.1px;
+  letter-spacing: 0;
+  line-height: 91.6px;
+}
+
+.product-from-lassi .text-wrapper-18 {
+  position: absolute;
+  top: 3694px;
+  left: 847px;
+  width: 714px;
+  text-shadow: 0px 4.43px 4.43px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #63a10b;
+  font-size: 89.7px;
+  letter-spacing: 0;
+  line-height: 127.1px;
+}
+
+.product-from-lassi .ellipse-4 {
+  position: absolute;
+  top: 2533px;
+  left: 1087px;
+  width: 234px;
+  height: 463px;
+  background-color: #d9d9d9;
+  border-radius: 116.78px/231.34px;
+  box-shadow: 0px 4.43px 80.14px 182.64px #f4e91e40;
+}
+
+.product-from-lassi .ghee {
+  position: absolute;
+  top: 2459px;
+  left: 918px;
+  width: 594px;
+  height: 598px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.product-from-lassi .ellipse-5 {
+  position: absolute;
+  top: 4184px;
+  left: -21px;
+  width: 808px;
+  height: 79px;
+  border-radius: 404.01px/39.49px;
+  filter: blur(9.11px);
+  background: radial-gradient(50% 50% at 57% 50%, rgba(0, 0, 0, 0.8) 25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.product-from-lassi .day-dairy-power-2 {
+  position: absolute;
+  top: 3489px;
+  left: 0;
+  width: 756px;
+  height: 768px;
+  aspect-ratio: 1.01;
+}
+
+.product-from-lassi .section-4 {
+  position: absolute;
+  top: 5399px;
+  left: 0;
+  width: 1512px;
+  height: 1512px;
+}
+
+.product-from-lassi .group {
+  position: absolute;
+  top: 5564px;
+  left: 49px;
+  width: 1410px;
+  height: 1005px;
+}
+
+.product-from-lassi .our-team-is-here-to {
+  position: absolute;
+  top: 158px;
+  left: 203px;
+  width: 922px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #6d7b8f;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+}
+
+.product-from-lassi .have-a-question {
+  position: absolute;
+  top: 0;
+  left: 342px;
+  width: 643px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 48.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 69.1px;
+}
+
+.product-from-lassi .text-wrapper-19 {
+  color: #2194c0;
+}
+
+.product-from-lassi .rounded-rectangle {
+  position: absolute;
+  top: 527px;
+  left: 509px;
+  width: 408px;
+  height: 64px;
+  border-radius: 16.6px;
+  border: 1.11px solid;
+  border-color: #000000;
+}
+
+.product-from-lassi .rectangle-8 {
+  position: absolute;
+  top: 692px;
+  left: 509px;
+  width: 884px;
+  height: 64px;
+  border-radius: 16.6px;
+  border: 1.11px solid;
+  border-color: #000000;
+}
+
+.product-from-lassi .rectangle-9 {
+  position: absolute;
+  top: 855px;
+  left: 509px;
+  width: 884px;
+  height: 149px;
+  border-radius: 16.6px;
+  border: 1.11px solid;
+  border-color: #000000;
+}
+
+.product-from-lassi .rectangle-10 {
+  position: absolute;
+  top: 527px;
+  left: 985px;
+  width: 408px;
+  height: 64px;
+  border-radius: 16.6px;
+  border: 1.11px solid;
+  border-color: #000000;
+}
+
+.product-from-lassi .text-wrapper-20 {
+  position: absolute;
+  top: 536px;
+  left: 529px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-21 {
+  position: absolute;
+  top: 699px;
+  left: 526px;
+  width: 104px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+}
+
+.product-from-lassi .text-wrapper-22 {
+  position: absolute;
+  top: 864px;
+  left: 537px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .we-d-like-to-hear {
+  position: absolute;
+  top: 563px;
+  left: 1px;
+  width: 402px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-23 {
+  position: absolute;
+  top: 534px;
+  left: 1012px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .email {
+  position: absolute;
+  top: 764px;
+  left: 167px;
+  width: 66px;
+  height: 66px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.product-from-lassi .text-wrapper-24 {
+  position: absolute;
+  top: 836px;
+  left: 48px;
+  width: 332px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .flipcard {
+  position: absolute;
+  top: 4879px;
+  left: 83px;
+  width: 442px;
+  height: 442px;
+}
+
+.product-from-lassi .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 442px;
+  height: 442px;
+  background-color: #ffffff;
+  border-radius: 55.26px;
+  border: 1.11px solid;
+  border-color: #d9d9d999;
+  transform: rotate(180deg);
+  box-shadow: 0px 4.42px 4.42px #00000040;
+}
+
+.product-from-lassi .p {
+  position: absolute;
+  top: 55px;
+  left: 56px;
+  width: 329px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .group-2 {
+  position: absolute;
+  top: 35px;
+  left: calc(50% - 28px);
+  width: 54px;
+  height: 54px;
+  transform: rotate(-180deg);
+}
+
+.product-from-lassi .ellipse-6 {
+  position: absolute;
+  top: 346px;
+  left: 36px;
+  width: 57px;
+  height: 57px;
+  transform: rotate(-180deg);
+  object-fit: cover;
+}
+
+.product-from-lassi .text-wrapper-25 {
+  position: absolute;
+  top: 369px;
+  left: 118px;
+  width: 298px;
+  font-family: "Franklin Gothic Demi Cond-Regular", Helvetica;
+  font-weight: 400;
+  color: #0c0b0b;
+  font-size: 22.1px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-26 {
+  position: absolute;
+  top: 340px;
+  left: 28px;
+  width: 271px;
+  font-family: "Halant", Helvetica;
+  font-weight: 400;
+  color: #848484;
+  font-size: 13.3px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 442px;
+  height: 442px;
+  background-color: #ffffff;
+  border-radius: 55.26px;
+  border: 1.11px solid;
+  border-color: #d9d9d999;
+  box-shadow: 0px 4.42px 4.42px #00000040;
+}
+
+.product-from-lassi .text-wrapper-27 {
+  position: absolute;
+  top: 221px;
+  left: 85px;
+  width: 271px;
+  font-family: "Halant", Helvetica;
+  font-weight: 400;
+  color: #848484;
+  font-size: 22.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .text-wrapper-28 {
+  position: absolute;
+  top: 185px;
+  left: 72px;
+  width: 297px;
+  font-family: "Franklin Gothic Demi Cond-Regular", Helvetica;
+  font-weight: 400;
+  color: #0c0b0b;
+  font-size: 39.8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .ellipse-7 {
+  position: absolute;
+  top: 55px;
+  left: 165px;
+  width: 113px;
+  height: 113px;
+  object-fit: cover;
+}
+
+.product-from-lassi .group-3 {
+  position: absolute;
+  top: 353px;
+  left: calc(50% - 28px);
+  width: 54px;
+  height: 54px;
+}
+
+.product-from-lassi .text-wrapper-29 {
+  position: absolute;
+  top: 304px;
+  left: 119px;
+  width: 204px;
+  font-family: "Halant", Helvetica;
+  font-weight: 400;
+  color: #020202;
+  font-size: 16.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .group-4 {
+  position: absolute;
+  top: 265px;
+  left: 154px;
+  width: 135px;
+  height: 29px;
+  display: flex;
+  background-color: #f1efef;
+  border-radius: 35.37px;
+  box-shadow: 0px 7.74px 18.79px #00000040;
+}
+
+.product-from-lassi .star {
+  width: 18.92px;
+  margin-left: 9.3px;
+  margin-top: 4.4px;
+  height: 17.99px;
+}
+
+.product-from-lassi .star-2 {
+  width: 17.87px;
+  margin-left: 6.5px;
+  margin-top: 4.4px;
+  height: 17.99px;
+}
+
+.product-from-lassi .star-3 {
+  width: 17.87px;
+  margin-left: 5.3px;
+  margin-top: 4.4px;
+  height: 17.99px;
+}
+
+.product-from-lassi .star-4 {
+  width: 17.87px;
+  margin-left: 4.2px;
+  margin-top: 4.4px;
+  height: 17.99px;
+}
+
+.product-from-lassi .star-5 {
+  width: 18.92px;
+  margin-left: 4.3px;
+  margin-top: 4.4px;
+  height: 17.99px;
+}
+
+.product-from-lassi .flipcard-2 {
+  left: 558px;
+  position: absolute;
+  top: 4878px;
+  width: 442px;
+  height: 442px;
+}
+
+.product-from-lassi .flipcard-3 {
+  left: 1033px;
+  position: absolute;
+  top: 4878px;
+  width: 442px;
+  height: 442px;
+}
+
+.product-from-lassi .image {
+  top: 921px;
+  width: 1086px;
+  height: 1473px;
+  aspect-ratio: 0.78;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.product-from-lassi .image-2 {
+  top: 1382px;
+  width: 683px;
+  height: 704px;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+
+.product-from-lassi {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1512px;
+  min-height: 9242px;
+  position: relative;
+}
+
+.product-from-lassi .rectangle {
+  position: absolute;
+  top: 2089px;
+  left: 0;
+  width: 1512px;
+  height: 7153px;
+}
+
+.product-from-lassi .ellipse {
+  position: absolute;
+  top: 5885px;
+  left: -20px;
+  width: 736px;
+  height: 72px;
+  border-radius: 368.04px/35.97px;
+  filter: blur(10.95px);
+  background: radial-gradient(50% 50% at 57% 50%, rgba(0, 0, 0, 0.8) 25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.product-from-lassi .div {
+  position: absolute;
+  top: 4986px;
+  left: 857px;
+  width: 736px;
+  height: 72px;
+  border-radius: 368.04px/35.97px;
+  filter: blur(10.95px);
+  background: radial-gradient(50% 50% at 57% 50%, rgba(0, 0, 0, 0.8) 25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.product-from-lassi .ellipse-2 {
+  position: absolute;
+  top: 4115px;
+  left: 0;
+  width: 766px;
+  height: 55px;
+  border-radius: 382.98px/27.67px;
+  background: radial-gradient(50% 50% at 57% 50%, rgba(90, 90, 90, 0.8) 25%, rgba(192, 192, 192, 0) 100%);
+}
+
+.product-from-lassi .ellipse-3 {
+  position: absolute;
+  top: 6878px;
+  left: 942px;
+  width: 736px;
+  height: 72px;
+  border-radius: 368.04px/35.97px;
+  filter: blur(10.95px);
+  background: radial-gradient(50% 50% at 57% 50%, rgba(0, 0, 0, 0.8) 25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.product-from-lassi .dairy-power-day {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 1278px;
+  aspect-ratio: 1.18;
+}
+
+.product-from-lassi .rectangle-2 {
+  position: absolute;
+  top: 31px;
+  left: calc(50% - 718px);
+  width: 1448px;
+  height: 80px;
+  background-color: #b0c9d2;
+  border-radius: 28.78px;
+  transform: rotate(-0.02deg);
+  backdrop-filter: blur(19.37px) brightness(100%);
+  -webkit-backdrop-filter: blur(19.37px) brightness(100%);
+  background-blend-mode: multiply;
+}
+
+.product-from-lassi .ellipse-4 {
+  position: absolute;
+  top: 11px;
+  left: 27px;
+  width: 122px;
+  height: 122px;
+  background-color: #ffffff;
+  border-radius: 60.88px;
+}
+
+.product-from-lassi .section {
+  top: 3228px;
+  height: 1374px;
+  position: absolute;
+  left: 0;
+  width: 1512px;
+}
+
+.product-from-lassi .img {
+  top: 3586px;
+  height: 1377px;
+  position: absolute;
+  left: 0;
+  width: 1512px;
+}
+
+.product-from-lassi .text-wrapper {
+  position: absolute;
+  top: 2371px;
+  left: 64px;
+  width: 714px;
+  text-shadow: 0px 4.43px 4.43px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #f28350;
+  font-size: 89.7px;
+  letter-spacing: 0;
+  line-height: 91.6px;
+}
+
+.product-from-lassi .a-premium-dairy {
+  position: absolute;
+  top: 413px;
+  left: 104px;
+  width: 656px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 26.6px;
+  letter-spacing: 0;
+  line-height: 44.3px;
+}
+
+.product-from-lassi .a-superb-of-joy-in {
+  position: absolute;
+  top: 214px;
+  left: 104px;
+  width: 651px;
+  text-shadow: 0px 4.43px 4.43px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #4b2e24;
+  font-size: 68px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .navbar {
+  position: absolute;
+  top: 56px;
+  left: 523px;
+  width: 963px;
+  height: 44px;
+}
+
+.product-from-lassi .text-wrapper-2 {
+  width: 10.07%;
+  left: 88.75%;
+  position: absolute;
+  height: 85.83%;
+  top: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-3 {
+  width: 10.8%;
+  left: 70.56%;
+  position: absolute;
+  height: 85.83%;
+  top: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-4 {
+  width: 9.14%;
+  left: 54.31%;
+  position: absolute;
+  height: 85.83%;
+  top: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-5 {
+  width: 7.27%;
+  left: 40.32%;
+  position: absolute;
+  height: 85.83%;
+  top: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-6 {
+  width: 7.06%;
+  left: 26.72%;
+  position: absolute;
+  height: 85.83%;
+  top: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .active-item {
+  position: absolute;
+  width: 5.92%;
+  height: 100%;
+  top: 0;
+  left: 14.79%;
+}
+
+.product-from-lassi .text-wrapper-7 {
+  position: absolute;
+  width: 96.49%;
+  height: 85.83%;
+  top: 0;
+  left: 0;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 19.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .rectangle-3 {
+  position: absolute;
+  width: 52.8%;
+  height: 7.5%;
+  top: 92.5%;
+  left: 21.32%;
+  background-color: #f1d21e;
+  border-radius: 160.5px;
+}
+
+.product-from-lassi .section-2 {
+  top: 1024px;
+  height: 1253px;
+  position: absolute;
+  left: 0;
+  width: 1512px;
+}
+
+.product-from-lassi .dairy-power-logo {
+  position: absolute;
+  top: 19px;
+  left: 34px;
+  width: 107px;
+  height: 97px;
+  aspect-ratio: 1.1;
+  object-fit: cover;
+}
+
+.product-from-lassi .text-wrapper-8 {
+  position: absolute;
+  top: 4334px;
+  left: 74px;
+  width: 714px;
+  text-shadow: 0px 4.43px 4.43px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #f4a76b;
+  font-size: 89.7px;
+  letter-spacing: 0;
+  line-height: 127.1px;
+}
+
+.product-from-lassi .text-wrapper-9 {
+  position: absolute;
+  top: 5206px;
+  left: 788px;
+  width: 714px;
+  text-shadow: 0px 4.43px 4.43px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #bcd978;
+  font-size: 89.7px;
+  letter-spacing: 0;
+  line-height: 127.1px;
+}
+
+.product-from-lassi .frame {
+  top: 1581px;
+  left: 756px;
+  position: absolute;
+  width: 676px;
+  height: 401px;
+  box-shadow: 0px 4.23px 4.23px #00000040;
+}
+
+.product-from-lassi .rectangle-4 {
+  position: absolute;
+  top: -23px;
+  left: -28px;
+  width: 694px;
+  height: 407px;
+  background-color: #ffffff21;
+  border-radius: 66.65px 66.65px 66.65px 67.92px;
+  box-shadow: 0px 5.22px 5.22px #00000040;
+}
+
+.product-from-lassi .rectangle-5 {
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  width: 627px;
+  height: 337px;
+  background-color: #ffffff;
+  border-radius: 35.27px;
+}
+
+.product-from-lassi .p {
+  position: absolute;
+  top: 23px;
+  left: 28px;
+  width: 561px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: #000000a3;
+  font-size: 32.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .frame-2 {
+  top: 2613px;
+  left: 73px;
+  position: absolute;
+  width: 676px;
+  height: 401px;
+  box-shadow: 0px 4.23px 4.23px #00000040;
+}
+
+.product-from-lassi .frame-3 {
+  top: 3639px;
+  left: 797px;
+  position: absolute;
+  width: 676px;
+  height: 401px;
+  box-shadow: 0px 4.23px 4.23px #00000040;
+}
+
+.product-from-lassi .frame-4 {
+  top: 4607px;
+  left: 79px;
+  position: absolute;
+  width: 676px;
+  height: 401px;
+  box-shadow: 0px 4.23px 4.23px #00000040;
+}
+
+.product-from-lassi .frame-5 {
+  top: 5501px;
+  left: 756px;
+  position: absolute;
+  width: 676px;
+  height: 401px;
+  box-shadow: 0px 4.23px 4.23px #00000040;
+}
+
+.product-from-lassi .text-wrapper-10 {
+  position: absolute;
+  top: 1326px;
+  left: 740px;
+  width: 784px;
+  text-shadow: 0px 4.43px 4.43px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #a1b033;
+  font-size: 89.7px;
+  letter-spacing: 0;
+  line-height: 91.6px;
+}
+
+.product-from-lassi .text-wrapper-11 {
+  position: absolute;
+  top: 3358px;
+  left: 813px;
+  width: 699px;
+  text-shadow: 0px 4.43px 4.43px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #f97d76;
+  font-size: 89.7px;
+  letter-spacing: 0;
+  line-height: 127.1px;
+}
+
+.product-from-lassi .img-2 {
+  position: absolute;
+  top: 1127px;
+  left: 0;
+  width: 837px;
+  height: 1074px;
+  aspect-ratio: 0.78;
+  object-fit: cover;
+}
+
+.product-from-lassi .pipneapple-milk {
+  position: absolute;
+  top: 935px;
+  left: 0;
+  width: 1162px;
+  height: 1443px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.product-from-lassi .pngtree-peeled {
+  position: absolute;
+  top: 2269px;
+  left: 662px;
+  width: 850px;
+  height: 869px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.product-from-lassi .falling-whole {
+  position: absolute;
+  top: 3897px;
+  left: 410px;
+  width: 1102px;
+  height: 1262px;
+  aspect-ratio: 0.8;
+  object-fit: cover;
+}
+
+.product-from-lassi .image {
+  position: absolute;
+  top: 4771px;
+  left: 0;
+  width: 1094px;
+  height: 1591px;
+  aspect-ratio: 1.79;
+  object-fit: cover;
+}
+
+.product-from-lassi .DP-white-background {
+  position: absolute;
+  top: 1982px;
+  left: 393px;
+  width: 1119px;
+  height: 1445px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.product-from-lassi .DP-white-background-2 {
+  position: absolute;
+  top: 3819px;
+  left: 285px;
+  width: 1227px;
+  height: 1615px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.product-from-lassi .DP-white-background-3 {
+  position: absolute;
+  top: 4771px;
+  left: 0;
+  width: 1137px;
+  height: 1507px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.product-from-lassi .section-3 {
+  top: 7999px;
+  height: 1243px;
+  position: absolute;
+  left: 0;
+  width: 1512px;
+}
+
+.product-from-lassi .section-4 {
+  top: 6410px;
+  height: 660px;
+  position: absolute;
+  left: 0;
+  width: 1512px;
+}
+
+.product-from-lassi .section-5 {
+  top: 6046px;
+  height: 706px;
+  position: absolute;
+  left: 0;
+  width: 1512px;
+}
+
+.product-from-lassi .group {
+  position: absolute;
+  top: 8103px;
+  left: 20px;
+  width: 1434px;
+  height: 988px;
+}
+
+.product-from-lassi .our-team-is-here-to {
+  position: absolute;
+  top: 173px;
+  left: 228px;
+  width: 922px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #6d7b8f;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+}
+
+.product-from-lassi .have-a-question {
+  position: absolute;
+  top: 0;
+  left: 357px;
+  width: 643px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 48.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 69.1px;
+}
+
+.product-from-lassi .span {
+  color: #000000;
+}
+
+.product-from-lassi .text-wrapper-12 {
+  color: #2194c0;
+}
+
+.product-from-lassi .rounded-rectangle {
+  position: absolute;
+  top: 510px;
+  left: 531px;
+  width: 408px;
+  height: 64px;
+  border-radius: 16.6px;
+  border: 1.11px solid;
+  border-color: #000000;
+}
+
+.product-from-lassi .rectangle-6 {
+  position: absolute;
+  top: 675px;
+  left: 531px;
+  width: 884px;
+  height: 64px;
+  border-radius: 16.6px;
+  border: 1.11px solid;
+  border-color: #000000;
+}
+
+.product-from-lassi .rectangle-7 {
+  position: absolute;
+  top: 838px;
+  left: 531px;
+  width: 884px;
+  height: 149px;
+  border-radius: 16.6px;
+  border: 1.11px solid;
+  border-color: #000000;
+}
+
+.product-from-lassi .rectangle-8 {
+  position: absolute;
+  top: 510px;
+  left: 1007px;
+  width: 408px;
+  height: 64px;
+  border-radius: 16.6px;
+  border: 1.11px solid;
+  border-color: #000000;
+}
+
+.product-from-lassi .text-wrapper-13 {
+  position: absolute;
+  top: 457px;
+  left: 0;
+  width: 431px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: #58c1e9;
+  font-size: 63.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 105.1px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-14 {
+  position: absolute;
+  top: 519px;
+  left: 551px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-15 {
+  position: absolute;
+  top: 682px;
+  left: 548px;
+  width: 104px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+}
+
+.product-from-lassi .text-wrapper-16 {
+  position: absolute;
+  top: 847px;
+  left: 559px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .we-d-like-to-hear {
+  position: absolute;
+  top: 546px;
+  left: 22px;
+  width: 402px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-17 {
+  position: absolute;
+  top: 517px;
+  left: 1034px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .email {
+  position: absolute;
+  top: 752px;
+  left: 190px;
+  width: 66px;
+  height: 66px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.product-from-lassi .text-wrapper-18 {
+  position: absolute;
+  top: 819px;
+  left: 70px;
+  width: 332px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 26.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 44.3px;
+  white-space: nowrap;
+}
+
+.product-from-lassi .flipcard {
+  position: absolute;
+  top: 7564px;
+  left: 568px;
+  width: 361px;
+  height: 361px;
+}
+
+.product-from-lassi .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 361px;
+  height: 361px;
+  background-color: #ffffff;
+  border-radius: 45.06px;
+  border: 0.9px solid;
+  border-color: #d9d9d999;
+  transform: rotate(180deg);
+  box-shadow: 0px 3.61px 3.61px #00000040;
+}
+
+.product-from-lassi .text-wrapper-19 {
+  position: absolute;
+  top: 45px;
+  left: 46px;
+  width: 269px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16.2px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .group-2 {
+  position: absolute;
+  top: 29px;
+  left: calc(50% - 23px);
+  width: 44px;
+  height: 44px;
+  transform: rotate(-180deg);
+}
+
+.product-from-lassi .ellipse-5 {
+  position: absolute;
+  top: 282px;
+  left: 30px;
+  width: 47px;
+  height: 47px;
+  transform: rotate(-180deg);
+  object-fit: cover;
+}
+
+.product-from-lassi .text-wrapper-20 {
+  position: absolute;
+  top: 301px;
+  left: 96px;
+  width: 243px;
+  font-family: "Franklin Gothic Demi Cond-Regular", Helvetica;
+  font-weight: 400;
+  color: #0c0b0b;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-from-lassi .text-wrapper-21 {
+  position: absolute;
+  top: 278px;
+  left: 23px;
+  width: 221px;
+  font-family: "Halant", Helvetica;
+  font-weight: 400;
+  color: #848484;
+  font-size: 10.8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 361px;
+  height: 361px;
+  background-color: #ffffff;
+  border-radius: 45.06px;
+  border: 0.9px solid;
+  border-color: #d9d9d999;
+  box-shadow: 0px 3.61px 3.61px #00000040;
+}
+
+.product-from-lassi .text-wrapper-22 {
+  position: absolute;
+  top: 180px;
+  left: 69px;
+  width: 221px;
+  font-family: "Halant", Helvetica;
+  font-weight: 400;
+  color: #848484;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .text-wrapper-23 {
+  position: absolute;
+  top: 150px;
+  left: 58px;
+  width: 242px;
+  font-family: "Franklin Gothic Demi Cond-Regular", Helvetica;
+  font-weight: 400;
+  color: #0c0b0b;
+  font-size: 32.4px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .ellipse-6 {
+  position: absolute;
+  top: 45px;
+  left: 134px;
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+}
+
+.product-from-lassi .group-3 {
+  position: absolute;
+  top: 288px;
+  left: calc(50% - 23px);
+  width: 44px;
+  height: 44px;
+}
+
+.product-from-lassi .text-wrapper-24 {
+  position: absolute;
+  top: 248px;
+  left: 97px;
+  width: 166px;
+  font-family: "Halant", Helvetica;
+  font-weight: 400;
+  color: #020202;
+  font-size: 13.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-from-lassi .group-4 {
+  position: absolute;
+  top: 216px;
+  left: 125px;
+  width: 110px;
+  height: 23px;
+  display: flex;
+  background-color: #f1efef;
+  border-radius: 28.84px;
+  box-shadow: 0px 6.31px 15.32px #00000040;
+}
+
+.product-from-lassi .star {
+  width: 15.43px;
+  margin-left: 7.6px;
+  margin-top: 3.6px;
+  height: 14.67px;
+}
+
+.product-from-lassi .star-2 {
+  width: 14.57px;
+  margin-left: 5.3px;
+  margin-top: 3.6px;
+  height: 14.67px;
+}
+
+.product-from-lassi .star-3 {
+  width: 14.57px;
+  margin-left: 4.4px;
+  margin-top: 3.6px;
+  height: 14.67px;
+}
+
+.product-from-lassi .star-4 {
+  width: 14.57px;
+  margin-left: 3.5px;
+  margin-top: 3.6px;
+  height: 14.67px;
+}
+
+.product-from-lassi .star-5 {
+  width: 15.43px;
+  margin-left: 3.5px;
+  margin-top: 3.6px;
+  height: 14.67px;
+}
+
+.product-from-lassi .download {
+  position: absolute;
+  top: 6114px;
+  left: 733px;
+  width: 779px;
+  height: 941px;
+  aspect-ratio: 0.96;
+  object-fit: cover;
+}
+
+.product-from-lassi .feedbacks-of-our {
+  position: absolute;
+  top: 7201px;
+  left: 457px;
+  width: 582px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 90.8px;
+}
+
+.product-from-lassi .text-wrapper-25 {
+  color: #ffffff;
+}
+
+.product-from-lassi .text-wrapper-26 {
+  color: #3ba0c7;
+}
+
+.product-from-lassi .flipcard-2 {
+  left: 1000px;
+  position: absolute;
+  top: 7564px;
+  width: 361px;
+  height: 361px;
+}
+
+.product-from-lassi .flipcard-3 {
+  left: 130px;
+  position: absolute;
+  top: 7564px;
+  width: 361px;
+  height: 361px;
+}
+
+.product-from-lassi .DP-white-background-4 {
+  position: absolute;
+  top: 5808px;
+  left: 383px;
+  width: 1129px;
+  height: 1496px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.product-from-lassi .pista-flavoured-milk {
+  position: absolute;
+  top: 6171px;
+  left: 155px;
+  width: 714px;
+  text-shadow: 0px 4.43px 4.43px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #78b84e;
+  font-size: 89.7px;
+  letter-spacing: 0;
+  line-height: 127.1px;
+}
+
+.product-from-lassi .frame-6 {
+  top: 6455px;
+  left: 127px;
+  position: absolute;
+  width: 676px;
+  height: 401px;
+  box-shadow: 0px 4.23px 4.23px #00000040;
+}
+
+.product-from-lassi .ellipse-7 {
+  position: absolute;
+  top: 3987px;
+  left: 0;
+  width: 736px;
+  height: 72px;
+  border-radius: 368.04px/35.97px;
+  filter: blur(10.95px);
+  background: radial-gradient(50% 50% at 57% 50%, rgba(0, 0, 0, 0.8) 25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.product-from-lassi .ellipse-8 {
+  position: absolute;
+  top: 3066px;
+  left: 891px;
+  width: 736px;
+  height: 72px;
+  border-radius: 368.04px/35.97px;
+  filter: blur(10.95px);
+  background: radial-gradient(50% 50% at 57% 50%, rgba(0, 0, 0, 0.8) 25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.product-from-lassi .ellipse-9 {
+  position: absolute;
+  top: 1999px;
+  left: 14px;
+  width: 736px;
+  height: 72px;
+  border-radius: 368.04px/35.97px;
+  filter: blur(10.95px);
+  background: radial-gradient(50% 50% at 57% 50%, rgba(0, 0, 0, 0.8) 25%, rgba(255, 255, 255, 0) 100%);
+}
+
+.product-from-lassi .download-premium-png {
+  position: absolute;
+  top: 2899px;
+  left: 0;
+  width: 1092px;
+  height: 1321px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.product-from-lassi .DP-white-background-5 {
+  position: absolute;
+  top: 2819px;
+  left: 0;
+  width: 1233px;
+  height: 1630px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+
+.product-cold-coffee {
+  background-color: #ca8787;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1367.97px;
+  min-height: 6253px;
+  position: relative;
+}
+
+.product-cold-coffee .rectangle {
+  position: absolute;
+  top: 1887px;
+  left: 0;
+  width: 1368px;
+  height: 4366px;
+}
+
+.product-cold-coffee .img {
+  position: absolute;
+  top: 1919px;
+  left: 0;
+  width: 1368px;
+  height: 1349px;
+  object-fit: cover;
+}
+
+.product-cold-coffee .ellipse {
+  position: absolute;
+  top: 3722px;
+  left: 0;
+  width: 693px;
+  height: 50px;
+  border-radius: 346.5px / 25.04px;
+  background: radial-gradient(
+    50% 50% at 57% 50%,
+    rgba(90, 90, 90, 0.8) 25%,
+    rgba(192, 192, 192, 0) 100%
+  );
+}
+
+.product-cold-coffee .cc {
+  position: absolute;
+  top: 103px;
+  left: 0;
+  width: 1368px;
+  height: 1036px;
+  aspect-ratio: 1.32;
+}
+
+.product-cold-coffee .section {
+  position: absolute;
+  top: 2903px;
+  left: 0;
+  width: 1368px;
+  height: 1260px;
+}
+
+.product-cold-coffee .div {
+  position: absolute;
+  top: 3249px;
+  left: -73px;
+  width: 1980px;
+  height: 1092px;
+}
+
+.product-cold-coffee .BG {
+  position: absolute;
+  top: 0;
+  left: 73px;
+  width: 1368px;
+  height: 1092px;
+}
+
+.product-cold-coffee .feedback-of-our {
+  position: absolute;
+  top: 53px;
+  left: 497px;
+  width: 582px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 44.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 62.5px;
+}
+
+.product-cold-coffee .text-wrapper {
+  color: #000000;
+}
+
+.product-cold-coffee .span {
+  color: #da7e00;
+}
+
+.product-cold-coffee .text-wrapper-2 {
+  position: absolute;
+  top: 2234px;
+  left: 89px;
+  width: 729px;
+  text-shadow: 0px 5.45px 5.45px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #584e4d;
+  font-size: 103.7px;
+  letter-spacing: 0;
+  line-height: 112.8px;
+}
+
+.product-cold-coffee .section-2 {
+  position: absolute;
+  top: 928px;
+  left: 0;
+  width: 1368px;
+  height: 1142px;
+}
+
+.product-cold-coffee .frame {
+  top: 2394px;
+  left: 86px;
+  position: absolute;
+  width: 612px;
+  height: 363px;
+  box-shadow: 0px 3.83px 3.83px #00000040;
+}
+
+.product-cold-coffee .rectangle-2 {
+  position: absolute;
+  top: -21px;
+  left: -16px;
+  width: 628px;
+  height: 369px;
+  background-color: #ffffff21;
+  border-radius: 60.3px 60.3px 60.3px 61.45px;
+}
+
+.product-cold-coffee .rectangle-3 {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+  width: 567px;
+  height: 305px;
+  background-color: #ffffff;
+  border-radius: 31.91px;
+}
+
+.product-cold-coffee .p {
+  position: absolute;
+  top: 21px;
+  left: 34px;
+  width: 516px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: #000000a3;
+  font-size: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-cold-coffee .frame-2 {
+  top: 3504px;
+  left: 713px;
+  position: absolute;
+  width: 612px;
+  height: 363px;
+  box-shadow: 0px 3.83px 3.83px #00000040;
+}
+
+.product-cold-coffee .rectangle-4 {
+  position: absolute;
+  top: -21px;
+  left: -25px;
+  width: 628px;
+  height: 369px;
+  background-color: #ffffff21;
+  border-radius: 60.3px 60.3px 60.3px 61.45px;
+  box-shadow: 0px 4.73px 4.73px #00000040;
+}
+
+.product-cold-coffee .rectangle-5 {
+  position: absolute;
+  top: 11px;
+  left: 5px;
+  width: 567px;
+  height: 305px;
+  background-color: #ffffff;
+  border-radius: 31.91px;
+}
+
+.product-cold-coffee .text-wrapper-3 {
+  position: absolute;
+  top: 21px;
+  left: 26px;
+  width: 508px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: #000000a3;
+  font-size: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-cold-coffee .text-wrapper-4 {
+  position: absolute;
+  top: 5904px;
+  left: 18px;
+  width: 390px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: #86cae4;
+  font-size: 57.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 95.1px;
+  white-space: nowrap;
+}
+
+.product-cold-coffee .text-wrapper-5 {
+  position: absolute;
+  top: 1297px;
+  left: 743px;
+  width: 558px;
+  text-shadow: 0px 4.01px 4.01px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #395261;
+  font-size: 85.1px;
+  letter-spacing: 0;
+  line-height: 82.9px;
+}
+
+.product-cold-coffee .text-wrapper-6 {
+  position: absolute;
+  top: 3342px;
+  left: 736px;
+  width: 646px;
+  text-shadow: 0px 4.01px 4.01px #00000040;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: #352926;
+  font-size: 81.1px;
+  letter-spacing: 0;
+  line-height: 115.0px;
+}
+
+.product-cold-coffee .section-3 {
+  position: absolute;
+  top: 4868px;
+  left: 0;
+  width: 1368px;
+  height: 1385px;
+}
+
+.product-cold-coffee .group {
+  position: absolute;
+  top: 4997px;
+  left: 50px;
+  width: 1277px;
+  height: 907px;
+}
+
+.product-cold-coffee .our-team-is-here-to {
+  position: absolute;
+  top: 150px;
+  left: 246px;
+  width: 834px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #6d7b8f;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40.0px;
+}
+
+.product-cold-coffee .have-a-question {
+  position: absolute;
+  top: 0;
+  left: 380px;
+  width: 582px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 44.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 62.5px;
+}
+
+.product-cold-coffee .rounded-rectangle {
+  position: absolute;
+  top: 475px;
+  left: 461px;
+  width: 370px;
+  height: 58px;
+  border-radius: 15.02px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.product-cold-coffee .rectangle-6 {
+  position: absolute;
+  top: 624px;
+  left: 461px;
+  width: 800px;
+  height: 58px;
+  border-radius: 15.02px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.product-cold-coffee .rectangle-7 {
+  position: absolute;
+  top: 772px;
+  left: 461px;
+  width: 800px;
+  height: 135px;
+  border-radius: 15.02px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.product-cold-coffee .rectangle-8 {
+  position: absolute;
+  top: 475px;
+  left: 891px;
+  width: 370px;
+  height: 58px;
+  border-radius: 15.02px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.product-cold-coffee .text-wrapper-7 {
+  position: absolute;
+  top: 483px;
+  left: 479px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40.0px;
+  white-space: nowrap;
+}
+
+.product-cold-coffee .text-wrapper-8 {
+  position: absolute;
+  top: 631px;
+  left: 476px;
+  width: 94px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40.0px;
+}
+
+.product-cold-coffee .text-wrapper-9 {
+  position: absolute;
+  top: 780px;
+  left: 486px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40.0px;
+  white-space: nowrap;
+}
+
+.product-cold-coffee .we-d-like-to-hear {
+  position: absolute;
+  top: 508px;
+  left: 0;
+  width: 364px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40.0px;
+  white-space: nowrap;
+}
+
+.product-cold-coffee .text-wrapper-10 {
+  position: absolute;
+  top: 482px;
+  left: 915px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40.0px;
+  white-space: nowrap;
+}
+
+.product-cold-coffee .email {
+  position: absolute;
+  top: 689px;
+  left: 151px;
+  width: 60px;
+  height: 60px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.product-cold-coffee .text-wrapper-11 {
+  position: absolute;
+  top: 754px;
+  left: 43px;
+  width: 300px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40.0px;
+  white-space: nowrap;
+}
+
+.product-cold-coffee .flipcard {
+  position: absolute;
+  top: 4414px;
+  left: 75px;
+  width: 400px;
+  height: 400px;
+}
+
+.product-cold-coffee .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  border: 1px solid;
+  border-color: #d9d9d999;
+  transform: rotate(180deg);
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.product-cold-coffee .text-wrapper-12 {
+  position: absolute;
+  top: 50px;
+  left: 51px;
+  width: 298px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-cold-coffee .group-2 {
+  position: absolute;
+  top: 32px;
+  left: calc(50.00% - 25px);
+  width: 49px;
+  height: 49px;
+  transform: rotate(-180deg);
+}
+
+.product-cold-coffee .ellipse-2 {
+  position: absolute;
+  top: 313px;
+  left: 33px;
+  width: 52px;
+  height: 52px;
+  transform: rotate(-180deg);
+  object-fit: cover;
+}
+
+.product-cold-coffee .text-wrapper-13 {
+  position: absolute;
+  top: 334px;
+  left: 107px;
+  width: 270px;
+  font-family: "Franklin Gothic Demi Cond-Regular", Helvetica;
+  font-weight: 400;
+  color: #0c0b0b;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-cold-coffee .text-wrapper-14 {
+  position: absolute;
+  top: 308px;
+  left: 25px;
+  width: 245px;
+  font-family: "Halant", Helvetica;
+  font-weight: 400;
+  color: #848484;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-cold-coffee .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  border: 1px solid;
+  border-color: #d9d9d999;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.product-cold-coffee .text-wrapper-15 {
+  position: absolute;
+  top: 200px;
+  left: 77px;
+  width: 245px;
+  font-family: "Halant", Helvetica;
+  font-weight: 400;
+  color: #848484;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-cold-coffee .text-wrapper-16 {
+  position: absolute;
+  top: 167px;
+  left: 65px;
+  width: 269px;
+  font-family: "Franklin Gothic Demi Cond-Regular", Helvetica;
+  font-weight: 400;
+  color: #0c0b0b;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-cold-coffee .ellipse-3 {
+  position: absolute;
+  top: 50px;
+  left: 149px;
+  width: 102px;
+  height: 102px;
+  object-fit: cover;
+}
+
+.product-cold-coffee .group-3 {
+  position: absolute;
+  top: 319px;
+  left: calc(50.00% - 25px);
+  width: 49px;
+  height: 49px;
+}
+
+.product-cold-coffee .text-wrapper-17 {
+  position: absolute;
+  top: 275px;
+  left: 108px;
+  width: 185px;
+  font-family: "Halant", Helvetica;
+  font-weight: 400;
+  color: #020202;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-cold-coffee .group-4 {
+  position: absolute;
+  top: 240px;
+  left: 139px;
+  width: 122px;
+  height: 26px;
+  display: flex;
+  background-color: #f1efef;
+  border-radius: 32px;
+  box-shadow: 0px 7px 17px #00000040;
+}
+
+.product-cold-coffee .star {
+  width: 17.12px;
+  margin-left: 8.4px;
+  margin-top: 4px;
+  height: 16.28px;
+}
+
+.product-cold-coffee .star-2 {
+  width: 16.17px;
+  margin-left: 5.9px;
+  margin-top: 4px;
+  height: 16.28px;
+}
+
+.product-cold-coffee .star-3 {
+  width: 16.17px;
+  margin-left: 4.8px;
+  margin-top: 4px;
+  height: 16.28px;
+}
+
+.product-cold-coffee .star-4 {
+  width: 16.17px;
+  margin-left: 3.8px;
+  margin-top: 4px;
+  height: 16.28px;
+}
+
+.product-cold-coffee .star-5 {
+  width: 17.12px;
+  margin-left: 3.9px;
+  margin-top: 4px;
+  height: 16.28px;
+}
+
+.product-cold-coffee .flipcard-2 {
+  left: 505px;
+  position: absolute;
+  top: 4413px;
+  width: 400px;
+  height: 400px;
+}
+
+.product-cold-coffee .flipcard-3 {
+  left: 935px;
+  position: absolute;
+  top: 4413px;
+  width: 400px;
+  height: 400px;
+}
+
+.product-cold-coffee .coffeebottle {
+  top: 2039px;
+  left: 534px;
+  width: 834px;
+  height: 864px;
+  position: absolute;
+  aspect-ratio: 1.25;
+  object-fit: cover;
+}
+
+.product-cold-coffee .img-2 {
+  position: absolute;
+  top: 1172px;
+  left: 0;
+  width: 684px;
+  height: 587px;
+  aspect-ratio: 1.17;
+}
+
+.product-cold-coffee .coffeebottle-2 {
+  top: 1141px;
+  left: 0;
+  width: 901px;
+  height: 780px;
+  position: absolute;
+  aspect-ratio: 1.25;
+  object-fit: cover;
+}
+
+.product-cold-coffee .frame-3 {
+  top: 1430px;
+  left: 684px;
+  position: absolute;
+  width: 612px;
+  height: 363px;
+  box-shadow: 0px 3.83px 3.83px #00000040;
+}
+
+.product-cold-coffee .real-power-starts {
+  position: absolute;
+  top: 21px;
+  left: 26px;
+  width: 546px;
+  font-family: "Playfair", Helvetica;
+  font-weight: 400;
+  color: #000000a3;
+  font-size: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-cold-coffee .img-3 {
+  position: absolute;
+  top: 3231px;
+  left: 25px;
+  width: 743px;
+  height: 780px;
+  aspect-ratio: 0.95;
+  object-fit: cover;
+}
+
+.product-cold-coffee .coffeebottle-3 {
+  position: absolute;
+  top: 3260px;
+  left: 0;
+  width: 873px;
+  height: 783px;
+  aspect-ratio: 1.25;
+  object-fit: cover;
+}
+/* INJECT ORIGINAL CSS CODE HERE */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.contact-form {
+  position: absolute;
+  top: 225px;
+  left: 461px;
+  width: 800px;
+}
+
+.form-row {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 91px;
+}
+
+.form-field {
+  position: relative;
+}
+
+.form-row .form-field {
+  flex: 1;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 40.0px;
+  padding: 9px 18px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 15.02px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form input[type="text"]::placeholder,
+.contact-form input[type="email"]::placeholder,
+.contact-form textarea::placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 135px;
+  padding-top: 9px;
+}
+
+.contact-info {
+  position: absolute;
+  top: 689px;
+  left: 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.product-cold-coffee .rounded-rectangle,
+.product-cold-coffee .rectangle-6,
+.product-cold-coffee .rectangle-7,
+.product-cold-coffee .rectangle-8,
+.product-cold-coffee .text-wrapper-7,
+.product-cold-coffee .text-wrapper-8,
+.product-cold-coffee .text-wrapper-9,
+.product-cold-coffee .text-wrapper-10 {
+  display: none;
+}
