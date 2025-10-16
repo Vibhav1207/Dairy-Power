@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dairy Power — Responsive Layout</title>
     <style>
-      html, body { margin: 0; padding: 0; background: #fff; }
+      html, body { margin: 0; padding: 0; background: #fff; overflow-x: hidden; }
       :root {
         --design-width: 1472px;
         --design-height: 7546px;
@@ -28,18 +28,65 @@
         transform-origin: top left;
         margin-left: var(--offset-x);
       }
+      /* Buttons and mobile nav */
+      .btn { cursor: pointer; }
+      .btn:focus-visible { outline: 2px solid #0F8AC6; outline-offset: 2px; }
+      .btn--primary:hover { filter: brightness(1.06); }
+      .btn--outline:hover { background: rgba(225,247,255,0.1); }
+      .btn--link { text-decoration: underline; text-underline-offset: 3px; }
+      /* Prevent stretched images */
+      .design-root img { object-fit: contain; }
+      /* Remove underline for navbar buttons (desktop and mobile) */
+      #nav-bar .btn--link,
+      .mobile-nav .panel .btn--link { text-decoration: none; }
+      .nav-burger { position: fixed; top: 12px; right: 12px; width: 40px; height: 40px; border-radius: 8px; border: 1px solid #0F8AC6; background: rgba(255,255,255,0.92); display: none; align-items: center; justify-content: center; z-index: 1000; }
+      .nav-burger .bar { width: 22px; height: 2px; background: #0F8AC6; margin: 3px 0; }
+      .mobile-nav { position: fixed; inset: 0; display: none; z-index: 999; background: rgba(0,0,0,0.35); }
+      .mobile-nav .panel { position: absolute; top: 0; right: 0; width: min(75vw, 320px); height: 100%; background: #fff; padding: 16px; box-shadow: -4px 0 12px rgba(0,0,0,0.2); }
+      .mobile-nav .panel h2 { margin: 8px 0 16px; font-family: Playfair Display; font-size: 22px; }
+      .mobile-nav .panel button { display: block; width: 100%; text-align: left; padding: 12px; font-family: Playfair Display; font-size: 20px; border: none; background: transparent; cursor: pointer; }
+      .mobile-nav[data-open="true"] { display: block; }
+      /* Full-width background covering the top white hero area */
+      .top-hero-bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: var(--design-width);
+        height: 1024px; /* matches the top white area before the next section */
+        background: url('assets/top=bg.png') center top / cover no-repeat;
+      }
+      @media (max-width: 768px) {
+        #nav-bar { display: none !important; }
+        .nav-burger { display: flex; }
+      }
     </style>
   </head>
   <body>
+    <button id="nav-burger" class="nav-burger" aria-label="Open menu" aria-controls="mobile-nav" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <nav id="mobile-nav" class="mobile-nav" data-open="false">
+      <div class="panel">
+        <h2>Menu</h2>
+        <button class="btn btn--link">Home</button>
+        <button class="btn btn--link">Catalog</button>
+        <button class="btn btn--link">Recipes</button>
+        <button class="btn btn--link">Our Story</button>
+        <button class="btn btn--link">Certificates</button>
+        <button class="btn btn--link">Our Values</button>
+      </div>
+    </nav>
     <div class="page-wrapper">
       <div class="design-root" style="width: 1472px; height: 7546px; position: relative; background: white; overflow: hidden">
+  <div class="top-hero-bg"></div>
   <div style="width: 1673.60px; height: 5501.20px; left: -80.80px; top: 2088.68px; position: absolute; background: #78C3DF"></div>
-  <img style="width: 390.04px; height: 584.66px; left: 68.04px; top: 5613px; position: absolute; transform: rotate(16deg); transform-origin: top left" src="https://placehold.co/390x585" />
-  <img style="width: 748px; height: 961px; left: 1060.50px; top: 4475px; position: absolute; transform: rotate(9deg); transform-origin: top left; box-shadow: 4px 4px 4px; filter: blur(2px)" src="https://placehold.co/748x961" />
+  
   <div style="width: 423.94px; height: 55.34px; left: -102.94px; top: 4029.05px; position: absolute; background: radial-gradient(ellipse 57.96% 57.96% at 42.04% 50.00%, rgba(90.23, 90.23, 90.23, 0.80) 25%, rgba(192.23, 192.23, 192.23, 0) 100%); border-radius: 9999px"></div>
-  <img style="width: 860.05px; height: 860.05px; left: -325.42px; top: 3238.73px; position: absolute" src="https://placehold.co/860x860" />
+  <img style="width: 860.05px; height: 860.05px; left: -325.42px; top: 3238.73px; position: absolute" src="assets/panner-big.png" />
   <div style="width: 423.94px; height: 55.34px; left: 1088.06px; top: 3176.75px; position: absolute; background: radial-gradient(ellipse 57.96% 57.96% at 42.04% 50.00%, rgba(90.23, 90.23, 90.23, 0.80) 25%, rgba(192.23, 192.23, 192.23, 0) 100%); border-radius: 9999px"></div>
-  <img style="width: 1310.06px; height: 1641.17px; left: 234.66px; top: 2294.23px; position: absolute; transform: rotate(-28deg); transform-origin: top left" src="https://placehold.co/1310x1641" />
+  <img style="width: 950.06px; height: 1641.17px; left: 234.66px; top: 2294.23px; position: absolute; transform: rotate(-20deg); transform-origin: top left" src="assets/big-cup.png" />
   <div style="width: 2261.43px; padding: 10px; left: -284.51px; top: -12.21px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex"></div>
   <div style="width: 1434.16px; height: 80.35px; left: 17.63px; top: 31.45px; position: absolute; background: #B1CAD3; background-blend-mode: multiply; border-radius: 28.78px; backdrop-filter: blur(19.37px)"></div>
   <div style="width: 121.76px; height: 121.76px; left: 26.57px; top: 11.07px; position: absolute; background: white; border-radius: 9999px"></div>
@@ -50,24 +97,19 @@
   <div style="width: 736.50px; height: 154.85px; left: 77px; top: 2315.62px; position: absolute">
     <div style="width: 736.50px; height: 154.85px; left: 0px; top: 0px; position: absolute; color: white; font-size: 89.66px; font-family: Playfair Display; font-weight: 700; line-height: 127.13px; word-wrap: break-word; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)">Our Fresh Dairy Delights !</div>
   </div>
-  <div style="width: 242.74px; height: 51.88px; left: 437.91px; top: 582.87px; position: absolute; overflow: hidden">
-    <div style="width: 242.74px; height: 51.88px; left: 0px; top: 0px; position: absolute; border: 2.49px #E1F7FF solid"></div>
-    <div style="left: 65.35px; top: 4.84px; position: absolute; text-align: center; color: #E1F7FF; font-size: 22.41px; font-family: Playfair Display; font-weight: 700; line-height: 42.89px; word-wrap: break-word">Contact us</div>
-  </div>
-  <div style="width: 304.39px; height: 60.53px; left: 77px; top: 582.87px; position: absolute">
-    <div style="width: 304.39px; height: 60.53px; left: 0px; top: 0px; position: absolute; background: #0094CB"></div>
-    <div style="left: 50.34px; top: 8.84px; position: absolute; text-align: center; color: white; font-size: 22.41px; font-family: Playfair Display; font-weight: 700; line-height: 42.89px; word-wrap: break-word">Explore our catalog</div>
-  </div>
+  <button class="btn btn--outline" style="width: 242.74px; height: 51.88px; left: 437.91px; top: 582.87px; position: absolute; border: 2.49px #E1F7FF solid; background: transparent; color: #E1F7FF; font-size: 22.41px; font-family: Playfair Display; font-weight: 700; line-height: 51.88px; text-align: center">Contact us</button>
+  <button class="btn btn--primary" style="width: 304.39px; height: 60.53px; left: 77px; top: 582.87px; position: absolute; background: #0094CB; color: white; font-size: 22.41px; font-family: Playfair Display; font-weight: 700; line-height: 60.53px; text-align: center; border: none">Explore our catalog</button>
   <div style="width: 761.63px; height: 99.22px; left: 77px; top: 429.70px; position: absolute; color: white; font-size: 29.88px; font-family: Playfair Display; font-weight: 400; line-height: 49.78px; word-wrap: break-word">A premium dairy products that upraises quality,  freshness & taste.</div>
   <div style="width: 813px; height: 204.38px; left: 77px; top: 195px; position: absolute"><span style="color: white; font-size: 84.66px; font-family: Playfair Display; font-weight: 700; line-height: 103.12px; word-wrap: break-word">Real Taste With<br/>Real</span><span style="color: black; font-size: 84.66px; font-family: Playfair Display; font-weight: 700; line-height: 103.12px; word-wrap: break-word"> </span><span style="color: #F1D21E; font-size: 84.66px; font-family: Playfair Display; font-weight: 700; line-height: 103.12px; word-wrap: break-word">Power !</span></div>
-  <div style="width: 982.99px; padding: 10px; left: 440.50px; top: 39px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+  
+  <div id="nav-bar" style="width: 982.99px; padding: 10px; left: 440.50px; top: 39px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
     <div style="width: 962.99px; height: 44.28px; position: relative">
-      <div style="left: 854.61px; top: 0px; position: absolute; text-align: center; color: white; font-size: 19.92px; font-family: Playfair Display; font-weight: 400; line-height: 38.13px; word-wrap: break-word">Our Values</div>
-      <div style="left: 679.53px; top: 0px; position: absolute; text-align: center; color: white; font-size: 19.92px; font-family: Playfair Display; font-weight: 400; line-height: 38.13px; word-wrap: break-word">Certificates</div>
-      <div style="left: 522.96px; top: 0px; position: absolute; text-align: center; color: white; font-size: 19.92px; font-family: Playfair Display; font-weight: 400; line-height: 38.13px; word-wrap: break-word">Our Story</div>
-      <div style="left: 388.27px; top: 0px; position: absolute; text-align: center; color: white; font-size: 19.92px; font-family: Playfair Display; font-weight: 400; line-height: 38.13px; word-wrap: break-word">Recipes</div>
-      <div style="left: 257.32px; top: 0px; position: absolute; text-align: center; color: white; font-size: 19.92px; font-family: Playfair Display; font-weight: 400; line-height: 38.13px; word-wrap: break-word">Catalog</div>
-      <div style="left: 142.42px; top: 0px; position: absolute; text-align: center; color: black; font-size: 19.92px; font-family: Playfair Display; font-weight: 700; line-height: 38.13px; word-wrap: break-word">Home</div>
+      <button class="btn btn--link" style="left: 854.61px; top: 0px; position: absolute; text-align: center; color: white; font-size: 19.92px; font-family: Playfair Display; font-weight: 400; line-height: 38.13px; background: transparent; border: none">Our Values</button>
+      <button class="btn btn--link" style="left: 679.53px; top: 0px; position: absolute; text-align: center; color: white; font-size: 19.92px; font-family: Playfair Display; font-weight: 400; line-height: 38.13px; background: transparent; border: none">Certificates</button>
+      <button class="btn btn--link" style="left: 522.96px; top: 0px; position: absolute; text-align: center; color: white; font-size: 19.92px; font-family: Playfair Display; font-weight: 400; line-height: 38.13px; background: transparent; border: none">Our Story</button>
+      <button class="btn btn--link" style="left: 388.27px; top: 0px; position: absolute; text-align: center; color: white; font-size: 19.92px; font-family: Playfair Display; font-weight: 400; line-height: 38.13px; background: transparent; border: none">Recipes</button>
+      <button class="btn btn--link" style="left: 257.32px; top: 0px; position: absolute; text-align: center; color: white; font-size: 19.92px; font-family: Playfair Display; font-weight: 400; line-height: 38.13px; background: transparent; border: none">Catalog</button>
+      <button class="btn btn--link" style="left: 142.42px; top: 0px; position: absolute; text-align: center; color: black; font-size: 19.92px; font-family: Playfair Display; font-weight: 700; line-height: 38.13px; background: transparent; border: none">Home</button>
       <div style="width: 30.09px; height: 3.32px; left: 154.57px; top: 40.95px; position: absolute; background: #F1D21E; border-radius: 160.50px"></div>
     </div>
   </div>
@@ -76,78 +118,77 @@
   <div style="width: 178.21px; height: 178.21px; left: 1048.22px; top: 1916.89px; position: absolute; border-radius: 9999px; border: 3.32px #009FE3 solid"></div>
   <div style="width: 178.21px; height: 178.21px; left: 801.38px; top: 1910.25px; position: absolute; border-radius: 9999px; border: 3.32px #6E7B8F solid"></div>
   <div style="width: 178.21px; height: 178.21px; left: 1196.54px; top: 1691.45px; position: absolute; border-radius: 9999px; border: 3.32px #E30613 solid"></div>
-  <img style="width: 147px; height: 147px; left: 929px; top: 1709.13px; position: absolute; box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-radius: 73.05px" src="https://placehold.co/147x147" />
+  <img style="width: 147px; height: 147px; left: 929px; top: 1709.13px; position: absolute; box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-radius: 73.05px" src="assets/1.png" />
   <div style="width: 178.21px; height: 178.21px; left: 913.18px; top: 1694.40px; position: absolute; border-radius: 9999px; border: 3.32px #B3D260 solid"></div>
   <div style="width: 605.46px; height: 264.54px; left: 793.63px; top: 1335.03px; position: absolute; text-align: center; color: #5B6E7A; font-size: 32.67px; font-family: Baumans; font-weight: 400; word-wrap: break-word">Dairy Power Ltd. deals in milk and milk products under our “Dairy Power” brand with our motto ‘Real Power with Real Taste’ since year 2008. Dairy Power Ltd. is established as a partnership firm, registered under the Indian Partnership Act,1932.</div>
   <div style="width: 544.59px; left: 819.09px; top: 1225.45px; position: absolute; text-align: center; color: black; font-size: 48.70px; font-family: Playfair Display; font-weight: 700; line-height: 69.06px; word-wrap: break-word">ABOUT US</div>
   <div style="padding: 10px; left: 14.31px; top: -1.18px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
     <div style="width: 126.26px; padding: 10px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
-      <img style="align-self: stretch; height: 97.41px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="https://placehold.co/106x97" />
+      <img style="align-self: stretch; height: 97.41px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="assets/logo.png" />
     </div>
   </div>
-  <img style="width: 148px; height: 141px; left: 1212px; top: 1709.13px; position: absolute; box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-radius: 70.50px" src="https://placehold.co/148x141" />
-  <img style="width: 142.79px; height: 142.79px; left: 819px; top: 1928px; position: absolute; box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-radius: 242.41px" src="https://placehold.co/143x143" />
-  <img style="width: 141.68px; height: 147.22px; left: 1067.03px; top: 1931.51px; position: absolute; box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-radius: 282.25px" src="https://placehold.co/142x147" />
+  <img style="width: 148px; height: 141px; left: 1212px; top: 1709.13px; position: absolute; box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-radius: 70.50px" src="assets/2.png" />
+  <img style="width: 142.79px; height: 142.79px; left: 819px; top: 1928px; position: absolute; box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-radius: 242.41px" src="assets/3.png" />
+  <img style="width: 141.68px; height: 147.22px; left: 1067.03px; top: 1931.51px; position: absolute; box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-radius: 282.25px" src="assets/4.png" />
   <div style="width: 406.69px; height: 453.13px; left: 97.40px; top: 2799.30px; position: absolute; background: white; box-shadow: 0px 5.020813941955566px 5.020813941955566px rgba(0, 0, 0, 0.25); border-radius: 81.59px"></div>
   <div style="width: 303.76px; height: 225.94px; left: 148.87px; top: 2848.25px; position: absolute; background: #C04848; box-shadow: 0px 5.020813941955566px 5.020813941955566px rgba(0, 0, 0, 0.25); border-radius: 45.19px"></div>
   <div style="width: 291.21px; height: 56.48px; left: 155.15px; top: 3103.06px; position: absolute; text-align: center; color: black; font-size: 35.15px; font-family: Playfair Display; font-weight: 700; word-wrap: break-word; text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25)">MALAI LASSI</div>
-  <img style="width: 305.01px; height: 225.94px; left: 148.87px; top: 2848.25px; position: absolute; box-shadow: 0px 5.020813941955566px 5.020813941955566px rgba(0, 0, 0, 0.25); border-radius: 38.91px; border: 1.26px rgba(15, 138, 198, 0.50) solid" src="https://placehold.co/305x226" />
+  <img style="width: 320.01px; height: 234.94px; left: 140.87px; top: 2848.25px; position: absolute; box-shadow: 0px 5.020813941955566px 5.020813941955566px rgba(0, 0, 0, 0.25); border-radius: 38.91px; border: 1.26px rgba(15, 138, 198, 0.50) solid" src="assets/lassi.png" />
   <div style="width: 397.37px; height: 440.54px; left: 105px; top: 3830px; position: absolute; background: white; box-shadow: 0px 3.505272388458252px 3.505272388458252px rgba(0, 0, 0, 0.25); border-radius: 80.80px"></div>
   <div style="width: 397.37px; height: 440.54px; left: 105px; top: 3830px; position: absolute; background: white; box-shadow: 0px 3.505272388458252px 3.505272388458252px rgba(0, 0, 0, 0.25); border-radius: 80.80px"></div>
   <div style="width: 203.67px; height: 38.74px; left: 201.45px; top: 4120.92px; position: absolute; text-align: center; color: black; font-size: 32.10px; font-family: Playfair Display; font-weight: 700; word-wrap: break-word">DAHI</div>
   <div style="width: 89.44px; height: 3.04px; left: 248.25px; top: 3181.06px; position: absolute; background: #E30613; border-radius: 127.07px"></div>
-  <div style="width: 88.36px; height: 22.77px; left: 250.41px; top: 3203.83px; position: absolute; text-align: center; color: #009FE3; font-size: 15.77px; font-family: Playfair Display; font-weight: 400; word-wrap: break-word">More Details</div>
-  <img style="width: 290px; height: 214.73px; left: 159.19px; top: 3879.41px; position: absolute; border-radius: 23.66px; border: 0.88px #E09EA5 solid" src="https://placehold.co/290x215" />
+  <button class="btn btn--link" style="width: 88.36px; height: 22.77px; left: 250.41px; top: 3203.83px; position: absolute; text-align: center; color: #009FE3; font-size: 15.77px; font-family: Playfair Display; font-weight: 400; background: transparent; border: none">More Details</button>
+  <img style="width: 290px; height: 214.73px; left: 159.19px; top: 3879.41px; position: absolute; border-radius: 23.66px; border: 0.88px #E09EA5 solid" src="assets/dahi.png" />
   <div style="width: 414.52px; height: 461.86px; left: 998.33px; top: 3327.29px; position: absolute; box-shadow: 0px 3.655365228652954px 3.655365228652954px rgba(0, 0, 0, 0.25)">
     <div style="width: 414.52px; height: 461.86px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 83.16px"></div>
     <div style="width: 296.82px; height: 57.57px; left: 58.85px; top: 309.61px; position: absolute; text-align: center; color: black; font-size: 35.82px; font-family: Playfair Display; font-weight: 700; word-wrap: break-word">PANEER</div>
     <div style="width: 135.61px; height: 2.56px; left: 139.46px; top: 367.18px; position: absolute; background: #E30613; border-radius: 185.51px"></div>
-    <div style="left: 140.73px; top: 386.37px; position: absolute; text-align: center; color: #009FE3; font-size: 23.03px; font-family: Playfair Display; font-weight: 400; word-wrap: break-word">More Details</div>
-    <img style="width: 310.89px; height: 230.29px; left: 51.18px; top: 52.45px; position: absolute; border-radius: 46.06px" src="https://placehold.co/311x230" />
+    <button class="btn btn--link" style="left: 140.73px; top: 386.37px; position: absolute; text-align: center; color: #009FE3; font-size: 23.03px; font-family: Playfair Display; font-weight: 400; background: transparent; border: none">More Details</button>
+    <img style="width: 310.89px; height: 230.29px; left: 51.18px; top: 52.45px; position: absolute; border-radius: 46.06px" src="assets/panner.png" />
   </div>
   <div style="width: 414.52px; height: 461.86px; left: 96px; top: 4946px; position: absolute; box-shadow: 0px 3.655365228652954px 3.655365228652954px rgba(0, 0, 0, 0.25)">
     <div style="width: 414.52px; height: 461.86px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 83.16px"></div>
     <div style="width: 296.82px; height: 57.57px; left: 58.85px; top: 309.61px; position: absolute; text-align: center; color: black; font-size: 35.82px; font-family: Playfair Display; font-weight: 700; word-wrap: break-word">COLD COFFEE</div>
     <div style="width: 135.61px; height: 2.56px; left: 139.46px; top: 367.18px; position: absolute; background: #E30613; border-radius: 185.51px"></div>
-    <div style="left: 140.73px; top: 386.37px; position: absolute; text-align: center; color: #009FE3; font-size: 23.03px; font-family: Playfair Display; font-weight: 400; word-wrap: break-word">More Details</div>
-    <img style="width: 315px; height: 239px; left: 52px; top: 52px; position: absolute; border-radius: 29px" src="https://placehold.co/315x239" />
+    <button class="btn btn--link" style="left: 140.73px; top: 386.37px; position: absolute; text-align: center; color: #009FE3; font-size: 23.03px; font-family: Playfair Display; font-weight: 400; background: transparent; border: none">More Details</button>
+    <img style="width: 315px; height: 239px; left: 52px; top: 52px; position: absolute; border-radius: 29px" src="assets/cc-04 2.png" />
   </div>
   <div style="width: 414.52px; height: 461.86px; left: 1049px; top: 5602px; position: absolute; box-shadow: 0px 3.655365228652954px 3.655365228652954px rgba(0, 0, 0, 0.25)">
     <div style="width: 414.52px; height: 461.86px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 83.16px"></div>
     <div style="width: 296.82px; height: 57.57px; left: 58.85px; top: 309.61px; position: absolute; text-align: center; color: black; font-size: 35.82px; font-family: Playfair Display; font-weight: 700; word-wrap: break-word">COCONUT WATER</div>
-    <div style="width: 135.61px; height: 2.56px; left: 139.46px; top: 358.18px; position: absolute; background: #E30613; border-radius: 185.51px"></div>
-    <div style="left: 140.73px; top: 407.37px; position: absolute; text-align: center; color: #009FE3; font-size: 23.03px; font-family: Playfair Display; font-weight: 400; word-wrap: break-word">More Details</div>
-    <img style="width: 317px; height: 253px; left: 49px; top: 40px; position: absolute; border-radius: 35px" src="https://placehold.co/317x253" />
+    <div style="width: 135.61px; height: 2.56px; left: 139.46px; top: 348.18px; position: absolute; background: #E30613; border-radius: 185.51px"></div>
+    <button class="btn btn--link" style="left: 140.73px; top: 407.37px; position: absolute; text-align: center; color: #009FE3; font-size: 23.03px; font-family: Playfair Display; font-weight: 400; background: transparent; border: none">More Details</button>
+    <img style="width: 317px; height: 253px; left: 49px; top: 40px; position: absolute; border-radius: 35px" src="assets/coco-1.png" />
   </div>
   <div style="width: 572.91px; height: 339.80px; left: 605.46px; top: 2870.14px; position: absolute; box-shadow: 0px 3.5862960815429688px 3.5862960815429688px rgba(0, 0, 0, 0.25)">
     <div style="width: 588.15px; height: 345.18px; left: -23.31px; top: -19.73px; position: absolute; background: rgba(255, 255, 255, 0.13); box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-top-left-radius: 56.48px; border-top-right-radius: 56.48px; border-bottom-right-radius: 56.48px; border-bottom-left-radius: 57.56px"></div>
-    <img style="width: 66.41px; height: 66.41px; left: 13.28px; top: 3.32px; position: absolute; background: #D9D9D9; border-radius: 9999px; border: 1.11px white solid" src="https://placehold.co/66x66" />
+    <img style="width: 66.41px; height: 66.41px; left: 13.28px; top: 3.32px; position: absolute; background: #D9D9D9; border-radius: 9999px; border: 1.11px white solid" src="assets/man.png" />
     <div style="width: 531.30px; height: 210.31px; left: 3.32px; top: 90.77px; position: absolute; background: white; border-top-left-radius: 13.28px; border-top-right-radius: 13.28px; border-bottom-right-radius: 29.89px; border-bottom-left-radius: 29.89px"></div>
     <div style="width: 195.92px; height: 48.70px; left: 97.40px; top: 6.64px; position: absolute"><span style="color: black; font-size: 29.89px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Dairy Power <br/></span><span style="color: #5F5A5A; font-size: 18.82px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Malai Lassi</span></div>
     <div style="width: 493.67px; height: 212.52px; left: 32.10px; top: 102.94px; position: absolute"><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Dairy Power Malai Lassi is a </span><span style="color: rgba(179.48, 165.39, 58.68, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">rich</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">, creamy, and refreshing drink made with the goodness of pure curd. Packed with </span><span style="color: rgba(0, 136.33, 6.82, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">Natural taste</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word"> and </span><span style="color: rgba(213.81, 107.14, 64.96, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">freshness</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">, it offers a smooth texture with no added preservatives. Perfect to cool down your day, this traditional Indian delight is both healthy and delicious.</span></div>
   </div>
   <div style="width: 588.15px; height: 345.18px; left: 320.99px; top: 3402.55px; position: absolute; background: rgba(255, 255, 255, 0.13); box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-top-left-radius: 56.48px; border-top-right-radius: 56.48px; border-bottom-right-radius: 56.48px; border-bottom-left-radius: 57.56px"></div>
-  <img style="width: 66.41px; height: 66.41px; left: 357.59px; top: 3425.60px; position: absolute; background: #D9D9D9; border-radius: 9999px; border: 1.11px white solid" src="https://placehold.co/66x66" />
+  <img style="width: 66.41px; height: 66.41px; left: 357.59px; top: 3425.60px; position: absolute; background: #D9D9D9; border-radius: 9999px; border: 1.11px white solid" src="assets/man.png" />
   <div style="width: 531.30px; height: 210.31px; left: 347.63px; top: 3513.04px; position: absolute; background: white; border-top-left-radius: 13.28px; border-top-right-radius: 13.28px; border-bottom-right-radius: 29.89px; border-bottom-left-radius: 29.89px"></div>
   <div style="width: 195.92px; height: 48.70px; left: 441.71px; top: 3428.92px; position: absolute"><span style="color: black; font-size: 29.89px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Dairy Power <br/></span><span style="color: #5F5A5A; font-size: 18.82px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Paneer</span></div>
   <div style="width: 493.67px; height: 212.52px; left: 376.41px; top: 3525.22px; position: absolute"><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Dairy Power Malai Lassi is a </span><span style="color: rgba(179.48, 165.39, 58.68, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">rich</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">, creamy, and refreshing drink made with the goodness of pure curd. Packed with </span><span style="color: rgba(0, 136.33, 6.82, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">Natural taste</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word"> and </span><span style="color: rgba(213.81, 107.14, 64.96, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">freshness</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">, it offers a smooth texture with no added preservatives. Perfect to cool down your day, this traditional Indian delight is both healthy and delicious.</span></div>
-  <div style="width: 588.15px; height: 345.18px; left: 591.08px; top: 3884.05px; position: absolute; background: rgba(255, 255, 255, 0.13); box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-top-left-radius: 56.48px; border-top-right-radius: 56.48px; border-bottom-right-radius: 56.48px; border-bottom-left-radius: 57.56px"></div>
-  <img style="width: 66.41px; height: 66.41px; left: 627.67px; top: 3907.09px; position: absolute; background: #D9D9D9; border-radius: 9999px; border: 1.11px white solid" src="https://placehold.co/66x66" />
+  <img style="width: 66.41px; height: 66.41px; left: 627.67px; top: 3907.09px; position: absolute; background: #D9D9D9; border-radius: 9999px; border: 1.11px white solid" src="assets/man.png" />
   <div style="width: 531.30px; height: 210.31px; left: 617.71px; top: 3994.54px; position: absolute; background: white; border-top-left-radius: 13.28px; border-top-right-radius: 13.28px; border-bottom-right-radius: 29.89px; border-bottom-left-radius: 29.89px"></div>
   <div style="width: 195.92px; height: 48.70px; left: 711.79px; top: 3910.41px; position: absolute"><span style="color: black; font-size: 29.89px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Dairy Power <br/></span><span style="color: #5F5A5A; font-size: 18.82px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Malai Lassi</span></div>
   <div style="width: 493.67px; height: 212.52px; left: 646.49px; top: 4006.71px; position: absolute"><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Dairy Power Malai Lassi is a </span><span style="color: rgba(179.48, 165.39, 58.68, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">rich</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">, creamy, and refreshing drink made with the goodness of pure curd. Packed with </span><span style="color: rgba(0, 136.33, 6.82, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">Natural taste</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word"> and </span><span style="color: rgba(213.81, 107.14, 64.96, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">freshness</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">, it offers a smooth texture with no added preservatives. Perfect to cool down your day, this traditional Indian delight is both healthy and delicious.</span></div>
   <div style="width: 588.15px; height: 345.18px; left: 352px; top: 4424px; position: absolute; background: rgba(255, 255, 255, 0.13); box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-top-left-radius: 56.48px; border-top-right-radius: 56.48px; border-bottom-right-radius: 56.48px; border-bottom-left-radius: 57.56px"></div>
-  <img style="width: 66.41px; height: 66.41px; left: 388.59px; top: 4447.04px; position: absolute; background: #D9D9D9; border-radius: 9999px; border: 1.11px white solid" src="https://placehold.co/66x66" />
+  <img style="width: 66.41px; height: 66.41px; left: 388.59px; top: 4447.04px; position: absolute; background: #D9D9D9; border-radius: 9999px; border: 1.11px white solid" src="assets/man.png" />
   <div style="width: 531.30px; height: 210.31px; left: 378.63px; top: 4534.49px; position: absolute; background: white; border-top-left-radius: 13.28px; border-top-right-radius: 13.28px; border-bottom-right-radius: 29.89px; border-bottom-left-radius: 29.89px"></div>
   <div style="width: 195.92px; height: 48.70px; left: 472.72px; top: 4450.36px; position: absolute"><span style="color: black; font-size: 29.89px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Dairy Power <br/></span><span style="color: #5F5A5A; font-size: 18.82px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Malai Lassi</span></div>
   <div style="width: 493.67px; height: 212.52px; left: 407.41px; top: 4546.66px; position: absolute"><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Dairy Power Malai Lassi is a </span><span style="color: rgba(179.48, 165.39, 58.68, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">rich</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">, creamy, and refreshing drink made with the goodness of pure curd. Packed with </span><span style="color: rgba(0, 136.33, 6.82, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">Natural taste</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word"> and </span><span style="color: rgba(213.81, 107.14, 64.96, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">freshness</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">, it offers a smooth texture with no added preservatives. Perfect to cool down your day, this traditional Indian delight is both healthy and delicious.</span></div>
   <div style="width: 588.15px; height: 345.18px; left: 607px; top: 5012px; position: absolute; background: rgba(255, 255, 255, 0.13); box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-top-left-radius: 56.48px; border-top-right-radius: 56.48px; border-bottom-right-radius: 56.48px; border-bottom-left-radius: 57.56px"></div>
-  <img style="width: 66.41px; height: 66.41px; left: 643.59px; top: 5035.04px; position: absolute; background: #D9D9D9; border-radius: 9999px; border: 1.11px white solid" src="https://placehold.co/66x66" />
+  <img style="width: 66.41px; height: 66.41px; left: 643.59px; top: 5035.04px; position: absolute; background: #D9D9D9; border-radius: 9999px; border: 1.11px white solid" src="assets/man.png" />
   <div style="width: 531.30px; height: 210.31px; left: 633.63px; top: 5122.49px; position: absolute; background: white; border-top-left-radius: 13.28px; border-top-right-radius: 13.28px; border-bottom-right-radius: 29.89px; border-bottom-left-radius: 29.89px"></div>
   <div style="width: 195.92px; height: 48.70px; left: 727.72px; top: 5038.36px; position: absolute"><span style="color: black; font-size: 29.89px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Dairy Power <br/></span><span style="color: #5F5A5A; font-size: 18.82px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Malai Lassi</span></div>
   <div style="width: 493.67px; height: 212.52px; left: 662.41px; top: 5134.66px; position: absolute"><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Dairy Power Malai Lassi is a </span><span style="color: rgba(179.48, 165.39, 58.68, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">rich</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">, creamy, and refreshing drink made with the goodness of pure curd. Packed with </span><span style="color: rgba(0, 136.33, 6.82, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">Natural taste</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word"> and </span><span style="color: rgba(213.81, 107.14, 64.96, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">freshness</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">, it offers a smooth texture with no added preservatives. Perfect to cool down your day, this traditional Indian delight is both healthy and delicious.</span></div>
   <div style="width: 588.15px; height: 345.18px; left: 360px; top: 5668px; position: absolute; background: rgba(255, 255, 255, 0.13); box-shadow: 0px 4.427525997161865px 4.427525997161865px rgba(0, 0, 0, 0.25); border-top-left-radius: 56.48px; border-top-right-radius: 56.48px; border-bottom-right-radius: 56.48px; border-bottom-left-radius: 57.56px"></div>
-  <img style="width: 66.41px; height: 66.41px; left: 396.59px; top: 5691.04px; position: absolute; background: #D9D9D9; border-radius: 9999px; border: 1.11px white solid" src="https://placehold.co/66x66" />
+  <img style="width: 66.41px; height: 66.41px; left: 396.59px; top: 5691.04px; position: absolute; background: #D9D9D9; border-radius: 9999px; border: 1.11px white solid" src="assets/man.png" />
   <div style="width: 531.30px; height: 210.31px; left: 386.63px; top: 5778.49px; position: absolute; background: white; border-top-left-radius: 13.28px; border-top-right-radius: 13.28px; border-bottom-right-radius: 29.89px; border-bottom-left-radius: 29.89px"></div>
   <div style="width: 195.92px; height: 48.70px; left: 480.72px; top: 5694.36px; position: absolute"><span style="color: black; font-size: 29.89px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Dairy Power <br/></span><span style="color: #5F5A5A; font-size: 18.82px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Malai Lassi</span></div>
   <div style="width: 493.67px; height: 212.52px; left: 415.41px; top: 5790.66px; position: absolute"><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">Dairy Power Malai Lassi is a </span><span style="color: rgba(179.48, 165.39, 58.68, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">rich</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">, creamy, and refreshing drink made with the goodness of pure curd. Packed with </span><span style="color: rgba(0, 136.33, 6.82, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">Natural taste</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word"> and </span><span style="color: rgba(213.81, 107.14, 64.96, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 700; word-wrap: break-word">freshness</span><span style="color: rgba(0, 0, 0, 0.64); font-size: 22.14px; font-family: Playfair; font-weight: 400; word-wrap: break-word">, it offers a smooth texture with no added preservatives. Perfect to cool down your day, this traditional Indian delight is both healthy and delicious.</span></div>
@@ -161,27 +202,47 @@
   <div style="left: 576.84px; top: 7253.60px; position: absolute; text-align: center; color: black; font-size: 26.57px; font-family: Montserrat; font-weight: 400; line-height: 44.26px; word-wrap: break-word">Message</div>
   <div style="width: 401.80px; height: 46.49px; left: 40px; top: 6952.53px; position: absolute; text-align: center; color: black; font-size: 26.57px; font-family: Montserrat; font-weight: 400; line-height: 44.26px; word-wrap: break-word">We'd like to hear from you!</div>
   <div style="left: 1051.69px; top: 6923.75px; position: absolute; text-align: center; color: black; font-size: 26.57px; font-family: Montserrat; font-weight: 400; line-height: 44.26px; word-wrap: break-word">Last Name </div>
-  <img style="width: 66.41px; height: 66.41px; left: 208.25px; top: 7158.41px; position: absolute" src="https://placehold.co/66x66" />
+  <img style="width: 66.41px; height: 66.41px; left: 208.25px; top: 7158.41px; position: absolute" src="assets/man.png" />
   <div style="width: 332.06px; height: 37.63px; left: 87.60px; top: 7224.82px; position: absolute; text-align: center; color: black; font-size: 26.57px; font-family: Montserrat; font-weight: 400; line-height: 44.26px; word-wrap: break-word">dairy234.gmail.com</div>
   <div style="width: 691.80px; height: 55.34px; left: 59.77px; top: 2088.68px; position: absolute; background: radial-gradient(ellipse 57.96% 57.96% at 42.04% 50.00%, rgba(90.23, 90.23, 90.23, 0.80) 37%, rgba(255, 255, 255, 0) 100%); box-shadow: 4.427525997161865px 4.427525997161865px 4.427525997161865px; border-radius: 9999px; filter: blur(2.21px)"></div>
-  <img style="width: 645.31px; height: 967.41px; left: 67.52px; top: 1225.32px; position: absolute" src="https://placehold.co/645x967" />
+  <img style="width: 645.31px; height: 967.41px; left: 67.52px; top: 1225.32px; position: absolute" src="assets/cowman.png" />
   <div style="width: 42px; height: 83px; left: 738px; top: 866px; position: absolute; background: rgba(217, 217, 217, 0); border-radius: 21px; border: 3px #0F8AC6 solid"></div>
-  <div style="width: 18px; height: 0px; left: 757px; top: 885px; position: absolute; transform: rotate(90deg); transform-origin: top left; outline: 3px #FFFCFC solid; outline-offset: -1.50px"></div>
   <div style="left: 696px; top: 962px; position: absolute; color: white; font-size: 21.60px; font-family: Inter; font-weight: 400; word-wrap: break-word">Scroll Down </div>
-  <img style="width: 139px; height: 139px; left: 1306px; top: 1936px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 195px" src="https://placehold.co/139x139" />
+  <img style="width: 139px; height: 139px; left: 1306px; top: 1936px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 195px" src="assets/5.png" />
   <div style="width: 129.53px; height: 2.70px; left: 236.57px; top: 4188.66px; position: absolute; background: #E30613; box-shadow: 0px 5.020813941955566px 5.020813941955566px rgba(0, 0, 0, 0.25); border-radius: 182px"></div>
-  <div style="width: 125.59px; height: 41.15px; left: 239.81px; top: 4219.03px; position: absolute; text-align: center; color: #009FE3; font-size: 22.59px; font-family: Playfair Display; font-weight: 400; word-wrap: break-word; text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25)">More Details</div>
-  <img style="width: 1075.89px; height: 1075.89px; left: 519px; top: 4666.74px; position: absolute; transform: rotate(-29deg); transform-origin: top left" src="https://placehold.co/1076x1076" />
+  <button class="btn btn--link" style="width: 125.59px; height: 41.15px; left: 239.81px; top: 4219.03px; position: absolute; text-align: center; color: #009FE3; font-size: 22.59px; font-family: Playfair Display; font-weight: 400; background: transparent; border: none; text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25)">More Details</button>
+  <img style="width: 1075.89px; height: 1075.89px; left: 519px; top: 4666.74px; position: absolute; transform: rotate(-29deg); transform-origin: top left" src="assets/pineapple.png" />
   <div style="width: 414.52px; height: 461.86px; left: 1050px; top: 4343px; position: absolute; box-shadow: 0px 3.655365228652954px 3.655365228652954px rgba(0, 0, 0, 0.25)">
     <div style="width: 414.52px; height: 461.86px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 83.16px"></div>
     <div style="width: 296.82px; height: 57.57px; left: 60.85px; top: 314.61px; position: absolute; text-align: center; color: black; font-size: 32px; font-family: Playfair Display; font-weight: 700; word-wrap: break-word">FLAVOURED <br/>MILK</div>
-    <div style="width: 135.61px; height: 2.56px; left: 139.46px; top: 358.18px; position: absolute; background: #E30613; border-radius: 185.51px"></div>
-    <div style="left: 140.73px; top: 399.37px; position: absolute; text-align: center; color: #009FE3; font-size: 23.03px; font-family: Playfair Display; font-weight: 400; word-wrap: break-word">More Details</div>
-    <img style="width: 305px; height: 258px; left: 51px; top: 52px; position: absolute; border-radius: 46px" src="https://placehold.co/305x258" />
+    <div style="width: 135.61px; height: 2.56px; left: 139.46px; top: 350.18px; position: absolute; background: #E30613; border-radius: 185.51px"></div>
+    <button class="btn btn--link" style="left: 140.73px; top: 399.37px; position: absolute; text-align: center; color: #009FE3; font-size: 23.03px; font-family: Playfair Display; font-weight: 400; background: transparent; border: none">More Details</button>
+    <img style="width: 305px; height: 258px; left: 51px; top: 52px; position: absolute; border-radius: 46px" src="assets/milk.png" />
   </div>
-  <img style="width: 951px; height: 951px; left: -220.47px; top: 5499px; position: absolute; transform: rotate(14deg); transform-origin: top left" src="https://placehold.co/951x951" />
-  <img style="width: 974px; height: 780px; left: -209.16px; top: 4153px; position: absolute; transform: rotate(21deg); transform-origin: top left" src="https://placehold.co/974x780" />
-      </div>
+  <img style="width: 951px; height: 951px; left: -80.47px; top: 5360px; position: absolute; transform: rotate(7deg); transform-origin: top left" src="assets/coconut.png" />
+  <img style="width: 974px; height: 900px; left: -80.16px; top: 4153px; position: absolute; transform: rotate(8deg); transform-origin: top left" src="assets/coffee.png" />
+  </div>
     </div>
+    <script>
+      (function(){
+        const burger = document.getElementById('nav-burger');
+        const mobileNav = document.getElementById('mobile-nav');
+        if (burger && mobileNav) {
+          burger.addEventListener('click', function(){
+            const open = mobileNav.getAttribute('data-open') === 'true';
+            mobileNav.setAttribute('data-open', String(!open));
+            burger.setAttribute('aria-expanded', String(!open));
+          });
+          // close when tapping overlay outside panel
+          mobileNav.addEventListener('click', function(e){
+            if (e.target === mobileNav) {
+              mobileNav.setAttribute('data-open','false');
+              burger.setAttribute('aria-expanded','false');
+            }
+          });
+        }
+      })();
+    </script>
+
   </body>
 </html>
