@@ -60,3 +60,31 @@ window.addEventListener('load', () => {
     document.querySelectorAll(sel).forEach(addHoverHandlers);
   });
 })();
+
+// Mobile burger navigation toggle
+(() => {
+  const toggle = document.querySelector('.nav-toggle');
+  const panel = document.getElementById('mobile-nav');
+  if (!toggle || !panel) return;
+
+  const setOpen = (open) => {
+    toggle.classList.toggle('open', open);
+    panel.classList.toggle('open', open);
+    toggle.setAttribute('aria-expanded', String(open));
+    panel.setAttribute('aria-hidden', String(!open));
+    document.body.style.overflow = open ? 'hidden' : '';
+  };
+
+  toggle.addEventListener('click', () => {
+    const open = !panel.classList.contains('open');
+    setOpen(open);
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') setOpen(false);
+  });
+
+  panel.querySelectorAll('a').forEach((a) => {
+    a.addEventListener('click', () => setOpen(false));
+  });
+})();

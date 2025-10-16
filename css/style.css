@@ -5759,3 +5759,131 @@
   aspect-ratio: 1;
   object-fit: cover;
 }
+
+/* ------------------------------ */
+/* Mobile Navigation & Responsive  */
+/* ------------------------------ */
+
+/* Base: hide mobile nav elements by default (desktop) */
+.mobile-nav-bar,
+.mobile-nav {
+  display: none;
+}
+
+/* Burger button base */
+.nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.burger-bar {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #1b3b4a;
+  margin: 4px 0;
+  transition: transform 200ms ease, opacity 200ms ease;
+}
+
+.nav-toggle.open .burger-bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.nav-toggle.open .burger-bar:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle.open .burger-bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+/* Mobile nav bar styling */
+.mobile-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #b0c9d2;
+  backdrop-filter: blur(19.37px) brightness(100%);
+  -webkit-backdrop-filter: blur(19.37px) brightness(100%);
+  z-index: 10000;
+}
+.mobile-nav-bar .brand img {
+  height: 48px;
+  width: auto;
+}
+
+/* Mobile menu panel */
+.mobile-nav {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  transform: translateY(-100%);
+  transition: transform 220ms ease;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 8px;
+}
+.mobile-nav.open {
+  transform: translateY(0);
+}
+.mobile-nav a {
+  font-family: "Montserrat", Helvetica;
+  font-size: 18px;
+  color: #1b3b4a;
+  padding: 12px 8px;
+  border-radius: 8px;
+}
+.mobile-nav a:hover {
+  background: #e0f6ff;
+}
+
+@media (max-width: 1200px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* Scale down the Anima-generated canvas to fit viewport width */
+  .home-page {
+    transform: scale(calc(100vw / 1512));
+    transform-origin: top left;
+    /* Match visual height to scaled content to avoid extra blank space */
+    height: calc(7534px * (100vw / 1512));
+  }
+}
+
+/* Mobile-only: show burger nav and push content below it */
+@media (max-width: 768px) {
+  .home-page {
+    /* Push content below fixed mobile nav bar */
+    margin-top: 80px;
+  }
+
+  /* Hide desktop nav bar visuals on mobile */
+  .home-page .rectangle-2,
+  .home-page .ellipse-2,
+  .home-page .navbar {
+    display: none !important;
+  }
+
+  /* Show mobile nav */
+  .mobile-nav-bar,
+  .mobile-nav {
+    display: flex;
+  }
+}
